@@ -1,0 +1,62 @@
+body {
+    background: url("../img/donuts-fundo.png") no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.menu {
+    background-color:rgba( 255,105,180, 0.8) ;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px; 
+}
+.menu h2 {
+    background-color: #FF1493;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff; 
+    text-align: center; /* Centralizando o texto */
+
+}
+.option {
+    margin: 0 0 15px 0;
+}
+.option label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.option input {
+    padding: 10px;
+}
+.observations textarea {
+    width: calc(100% - 22px); /* Ajustando a largura da textarea */
+    padding: 10px;
+    border: 1px solid #ccc; /* Cor da borda cinza */
+    border-radius: 5px;
+    font-size: 16px;
+}
+.observations label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.button {
+    background-color: #FF1493; 
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; /* Convertendo o botão em bloco para ocupar a largura total */
+    margin: auto; /* Centralizando o botão */
+    margin-top: 10px;
+}
+.button:hover {
+    background-color: #b1245f; /* Verde mais escuro */
+}

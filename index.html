@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pedido de Donuts</title>
+<link rel="stylesheet" href="src/css/resete.css">
+<link rel="stylesheet" href="src/css/style.css">
+
+</head>
+<body>
+
+<div class="menu">
+    
+    <h2>Faça seu pedido de Cake Donuts</h2>
+
+    <div class="option">
+        <label for="sabor">Escolha o sabor da sua Massa :</label>
+        <input type="radio"  name="massa" value="baunilha"> Baunilha
+        <input type="radio" name="massa" value="chocolate"> Chocolate
+        <input type="radio"  name="massa" value="misto"> Misto  
+    </div>
+
+    <div class="option">
+        <label for="cobertura">Escolha o sabor da sua Cobertura :</label>
+        <input type="radio" name="cobertura" value="chocolate"> Chocolate ao Leite
+        <input type="radio" name="cobertura" value="chocolateBranco"> Chocolate Branco
+        <input type="radio"  name="cobertura" value="misto"> Misto
+        
+    </div>
+
+    <div class="option">
+        <label for="recheio">Escolha o sabor do seu Recheio :</label>
+        <input type="radio" name="recheio" value="docedeleite"> Doce de Leite
+        <input type="radio" name="recheio" value="nutella"> Nutella
+    </div>
+
+    <div class="option">
+        <label for="quantidade">Escolha a Quantidade :</label>
+        <input type="radio" name="quantidade" value="4u"> 4 unid. 
+        <input type="radio" name="quantidade" value="6u"> 6 unid.
+        <input type="radio" name="quantidade" value="50u"> 50 unid.
+        <input type="radio" name="quantidade" value="100u"> 100 unid.
+    </div>
+
+
+    <div class="observations">
+        <label for="observacoes">Observações/Endereço:</label>
+        <textarea id="observacoes" name="observacoes" rows="4" placeholder="Digite suas observações aqui..."></textarea>
+    </div>
+    <button class="button" onclick="enviarPedido()">Enviar Pedido</button>
+</div>
+
+<script src="./src/js/menu.js"></script>
+
+
+</body>
+</html>
